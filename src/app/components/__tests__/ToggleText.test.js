@@ -1,7 +1,7 @@
-// components/ToggleText.test.js
+import '@testing-library/jest-dom';
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import ToggleText from './ToggleText';
+import ToggleText from '../ToggleText';
 
 describe('ToggleText component', () => {
   test('text is not visible initially', () => {
